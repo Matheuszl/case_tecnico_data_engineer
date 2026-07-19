@@ -45,20 +45,27 @@ Consultas em Linguagem Natural
 
 ```
 /
-├── notebooks/
-│   ├── 01_ingestao_dados.ipynb
-│   ├── 02_analise_exploratoria.ipynb
-│   ├── 03_modelagem_silver.ipynb
-│   └── 04_configuracao_genie.ipynb
+├── 00_Utils/
+│   ├── utils
+│   ├── query_create_volume_bronze
+│   ├── Descicao Tabelas Genie
+│       ├── query_instrucoes_tabela_filiais
+│       ├── query_instrucoes_tabela_produtos
+│       ├── query_instrucoes_tabela_vendas
+│       ├── query_instrucoes_tabela_vendas_itens
+│        
+├── 01_etl/
+│   ├── etl_bronze.ipynb
+│   ├── etl_prata.ipynb
 │
-├── docs/
-│   ├── Analise_Exploratoria.md
-│   ├── Modelagem.md
-│   ├── Genie.md
-│   └── Apresentacao.pdf
+├── 02_eda/
+│   ├── eda.ipynb
+│   ├── obs.md
 │
-├── diagramas/
-│   └── arquitetura.png
+├── 03_genie/
+│   ├── genie.md
+│   ├── genie_instructions.md
+│   ├── genie_querys.ipynb
 │
 └── README.md
 ```
